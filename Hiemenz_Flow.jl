@@ -11,13 +11,13 @@ begin
 end
 
 # ╔═╡ ed659260-08e2-11eb-2951-2be739c080ed
-md"_MAE 5943 Homework 3, version 1_"
+md"_MAE 5943 Homework, version 2_"
 
 # ╔═╡ 59909ca0-08e3-11eb-3348-41080f6a2bd8
 md"""
 
-## **Homework 3** - _Hiemenz Flow_
-`MAE 5943`, `Fall 2020`
+## **Homework** - _Hiemenz Flow_
+`MAE 5943`
 
 #### **Description:**
 
@@ -41,7 +41,7 @@ $$f(0) = 0$$
 $$f'(0) = 0$$
 $$f'(∞) = 1$$
 
-Please see the lecture notes for [more information] (https://teams.microsoft.com/l/file/82A48388-B19D-4768-83EA-AD4C1277DD5D?tenantId=2a69c91d-e849-4e34-a230-cdf8b27e1964&fileType=pdf&objectUrl=https%3A%2F%2Fostatemailokstate.sharepoint.com%2Fsites%2FSTW_MAE_5943_UNSTEADY_AERODYNAMICS%2FShared%20Documents%2FWeek%2001%20-%20Introduction%2F06_MAE_5943_Hiemenz_Flow.pdf&baseUrl=https%3A%2F%2Fostatemailokstate.sharepoint.com%2Fsites%2FSTW_MAE_5943_UNSTEADY_AERODYNAMICS&serviceName=teams&threadId=19:bcec5825f6c440bfada9e3f6b9ea8555@thread.tacv2&messageId=1600463467662&groupId=ca352ade-ad9b-455f-a3a9-0c53f6111fc3) on the derivation of the ODE and numerical solution method.
+Please see the lecture notes for more information on the derivation of the ODE and numerical solution method.
 
 #### **Solution Method:**
 
@@ -66,7 +66,7 @@ The equations given above are solved using Thomas algorithm.
 
 Feel free to ask questions!
 
-*MAE 5943 - Unsteady Aerodynamics, Fall 2020* 
+*MAE 5943 - Unsteady Aerodynamics* 
 
 *Dr. Kursat Kara*
 
@@ -86,8 +86,7 @@ If the arguments are missing, it will use the default values.
 
 MAE 5943 - Unsteady Aerodynamics,
 Dr. Kursat Kara,
-kursat.kara@okstate.edu,
-Fall 2020. 
+kursat.kara@okstate.edu 
     
 """
 function hiemenz(ηmax=10, N=30, itermax=40, ϵProfile=1e-6, ϵBC=1e-6)
